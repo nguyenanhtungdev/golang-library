@@ -37,7 +37,7 @@ func Load() *Config {
 	}
 
 	if err := viper.Unmarshal(config); err != nil {
-		log.Fatal().Err(err).Msg("Failed to unmarshal config")
+		log.Fatal().Err(err).Msg("Failed to unmarshal config env variables")
 	}
 
 	return config
