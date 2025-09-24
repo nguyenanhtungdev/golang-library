@@ -1,4 +1,4 @@
-module github.com/nguyenanhtungdev/golang-libary
+module github.com/nguyenanhtungdev/golang-library
 
 go 1.23.0
 
